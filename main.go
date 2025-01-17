@@ -1,17 +1,25 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	// "strings"
 )
 
-// import "tabnews.com.br/ping"
-// import "tabnews.com.br/math"
-import "tabnews.com.br/router"
+// import "learning/ping"
+import "learning/math"
+// import "learning/router"
+// import "learning/structure_data"
 
 func main() {
 
-	router.Server()
+	// person := structuredata.Person{
+	// 	Name:    "John Doe",
+  //   Age:      30,
+	// }
+
+	// person.Greet()
+
+	// router.Server()
 
 	// fmt.Println(math.Factorial(6))
 	// ping.Pong("www.google.com")
@@ -23,5 +31,7 @@ func main() {
 
 	// fmt.Println(strings.Clone(sameText))
 
-
+	for i := 0; i <= 10 ; i++ {
+		fmt.Println(math.Factorial(i), i)
+	}
 }

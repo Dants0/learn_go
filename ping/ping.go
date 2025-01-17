@@ -2,6 +2,6 @@ package ping
 
 import "fmt"
 
-func Pong(text string) {
-  fmt.Println(text)
+func Pong() string {
+	return fmt.Sprintf("Pong")
 }

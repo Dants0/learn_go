@@ -1,3 +1,3 @@
-module tabnews.com.br
+module learning
 
 go 1.23.0
