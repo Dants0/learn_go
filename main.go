@@ -1,30 +1,31 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	// "strings"
 )
 
 // import "learning/ping"
 // import "learning/math"
 // import "learning/router"
-import "learning/structure_data"
+// import "learning/structure_data"
+import "learning/concorrencia"
 
 func main() {
 
-	person := structuredata.Person{
-		Name:    "John Doe",
-    Age:      30,
-	}
+	// person := structuredata.Person{
+	// 	Name:    "John Doe",
+  //   Age:      30,
+	// }
 
-	person.Greet()
+	// person.Greet()
 
-	hero := structuredata.SuperPerson{
-		Person: person,
-    SuperPower: "Super Suit",
-	}
+	// hero := structuredata.SuperPerson{
+	// 	Person: person,
+  //   SuperPower: "Super Suit",
+	// }
 
-	fmt.Println(hero.HeroPower())
+	// fmt.Println(hero.HeroPower())
 	
 	// router.Server()
 
@@ -48,5 +49,11 @@ func main() {
 	// var more_numbers [20]int
 
 	// fmt.Println(more_numbers)
+
+	// concorrencia.Goroutine()
+	// concorrencia.Channels()
+	// concorrencia.Select()
+	concorrencia.WaitGroup()
+
 
 }
